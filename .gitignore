@@ -1,0 +1,42 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
+
+# Ignore files that might contain passwords
+/config/database.yml
+
+# File extensions
+*.kpf
+*.orig
+*.pgdump
+*.swo
+*.swp
+*.sublime-project
+*.sublime-workspace
+*.tmproj
+*~
+.swm
+.DS_Store
+.bundle
+.idea
+.loadpath
+.powrc
+.project
+.rvmrc
+.ruby-gemset
+.swn
+.tags
+.tags_sorted_by_file
+.tddium
+.tddium*
+.solano*
+.settings/
+
